@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #f4e8dc;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav {
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.nav .logo {
+    border-radius: 40px;
+    margin-right: 200px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    opacity: 0.7;
+    color: white;
+}
+
+.nav .menu {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.nav .rewards {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.nav .get-card {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.nav .signin {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.nav .join-now {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.text {
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.text p {
+    margin-top: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.text .order-now {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icons .instagram {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.icons .facebook {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-right: -5px;
+}
+.drink img{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
