@@ -46,6 +46,20 @@ body {
     opacity: 0.7;
 }
 
+.menu a{
+    transition: 1s;
+}
+
+.menu a:hover{
+    transform: scale(1.1);
+    opacity: 5;
+
+}
+
+.main {
+    display: flex;
+}
+
 .nav .rewards {
     height: 30px;
     width: 100px;
@@ -95,7 +109,7 @@ body {
 }
 
 .text {
-    height: 400px;
+    height: 40px;
     margin-top: 150px;
     margin-left: 70px;
 }
@@ -128,9 +142,7 @@ body {
     margin-right: -5px;
 }
 .drink img{
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    margin-left: 40px;
-    margin-top: 100px;
+    height: 600px;
+    margin-left: 800px;
+    margin-top:  0px;
 }
